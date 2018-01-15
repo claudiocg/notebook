@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'home/index'
+  root 'home#index' #Definicao do index
 
   resources :phones
   resources :addresses
