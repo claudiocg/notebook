@@ -17,5 +17,5 @@
 /tmp
 
 #ignore RubyMine stuffs
-.ideia
-.generators
+.ideia/*
+.generators/*
