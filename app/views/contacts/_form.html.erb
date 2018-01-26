@@ -32,7 +32,7 @@
     <br>
     City: <%=  address_fields.text_field :city %>
     <br>
-    State: <%=  address_fields.text_field :state %>
+    State: <%= address_fields.select :state, options_for_states(@contact.address.state) %>
   <% end %>
 
 
