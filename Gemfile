@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails-i18n', '~>4.0.0'
+gem 'pry-rails', :group => :development
 gem 'lerolero_generator'
 gem 'faker'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
